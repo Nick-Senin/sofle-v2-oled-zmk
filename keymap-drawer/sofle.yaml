@@ -1,125 +1,125 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, BACKSPACE, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, RETURN, raise, RCTRL, RALT, RGUI]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', Ctl+BACKSPACE, A, S, D, F, G, H, J, K, L, ;, '''',
+    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LEFT CONTROL, LEFT ALT, lower, SPACE, RETURN, raise, Sft+RIGHT CONTROL, adjust, RGUI]
   lower:
+  - Gui+ESC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+TAB
+  - Ctl+W
+  - Sft+Ctl+TAB
+  - UP ARROW
+  - Ctl+Alt+TAB
+  - Ctl+F5
   - {t: ▽, type: trans}
+  - Alt+Ctl+LEFT
+  - {t: ▽, type: trans}
+  - Ctl+Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACKSPACE
+  - '!'
+  - LEFT ARROW
+  - DOWN
+  - RIGHT
+  - Ctl+PSCRN
+  - Ctl+LEFT ARROW
+  - Ctl+UP ARROW
+  - Ctl+DOWN
+  - Ctl+RIGHT
+  - {t: ▽, type: trans}
+  - Sft+Ctl+DELETE
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Sft+H
+  - Ctl+Sft+M
+  - Ctl+Sft+F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - adjust
+  - {t: TAB, h: adjust}
+  - {type: held}
+  - '&key_repeat'
+  - Alt+Ctl+ENTER
+  - Ctl+O
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - TAB
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - F12
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - Alt+UP ARROW
+  - ''
+  - KP MINUS
   - (
   - )
   - '|'
+  - ESC
+  - SLCK
+  - CAPS
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '{'
   - '}'
+  - UP ARROW
+  - RIGHT
+  - INS
+  - {t: APP, h: RIGHT CONTROL}
+  - {t: ▽, type: trans}
+  - ''
+  - '-'
+  - +
+  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
   - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - PG DN
+  - PAUSE BREAK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ENTER, h: adjust}
+  - {t: ESC, h: adjust}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,56 +132,56 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - ''
-  - ''
-  - ''
-  - ''
+  - PREV
+  - PP
+  - NEXT
   - ''
   - ''
   - EP TOG
   - RGB HUD
   - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
+  - Gui+UP ARROW
   - ''
   - ''
   - ''
-  - ''
+  - Sft+Gui+U
+  - Sft+Ctl+I
+  - Sft+Ctl+O
   - ''
   - ''
   - ''
   - RGB BRD
-  - RGB BRI
+  - Gui+LEFT
+  - Gui+DOWN
+  - Gui+RIGHT
+  - ''
+  - ''
+  - Sft+Ctl+J
+  - Sft+Gui+K
+  - Sft+Gui+L
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+D
   - ''
   - ''
   - RGB TOG
   - ''
   - ''
+  - VOL DN
+  - ''
+  - VOL UP
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
+  - Gui+ENTER
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
   - ''
